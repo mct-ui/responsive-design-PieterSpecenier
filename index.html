@@ -6,22 +6,20 @@
         <title>Flatiron</title>
         <meta name="description" content="This is my HTML5 boilerplate." />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="msapplication-TileColor" content="#e85e00" />
-        <meta name="theme-color" content="#e85e00" />
 
         <link rel="stylesheet" href="css/normalize.css" />
         <link rel="stylesheet" href="css/screen.css" />
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-        <link rel="manifest" href="/site.webmanifest" />
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+        <link rel="manifest" href="site.webmanifest" />
+        <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5" />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
     </head>
     <body>
-        <header class="o-row o-row—md">
+        <header class="o-row o-row—-md">
             <div class="o-container">
                 <div class="c-header">
                     <h1 class="c-logo">
@@ -58,7 +56,7 @@
                 </div>
             </div>
         </header>
-        <section class="o-row o-row--lg u-pt-clear">
+        <section class="o-row o-row--lg u-pt-clear ">
             <div class="o-container">
                 <div class="o-section o-section--lg">
                     <figure>
@@ -93,10 +91,11 @@
                 </div>
             </div>
         </section>
-        <section class="o-row o-row--lg">
+        <section class="o-row o-row--lg o-row--light-grey">
             <div class="o-container">
-                <article>
-                    <figure>
+                <div class="o-section o-section--lg ">
+                <article class="o-layout o-layout--gutter-lg o-layout--align-center">
+                    <figure class="o-layout__item u-1-of-2-bp3">
                         <picture>
                             <source srcset="img/jpg/img-1.jpg" media="(min-width: 992px)" />
                             <source srcset="img/jpg/img-1-landscape@2x.jpg" media="(min-width: 576px)" />
@@ -104,6 +103,7 @@
                         </picture>
                         <figcaption>Dr. Jeremy McDuffie, Tennessee Oncology</figcaption>
                     </figure>
+                    <div class="o-layout__item u-1-of-2-bp3 ">
                     <header>
                         <h2>
                             For Community <br />
@@ -118,9 +118,11 @@
                     <p>
                         <a href="#!">Learn more</a>
                     </p>
+                    </div>
                 </article>
-                <article>
-                    <figure>
+            </div>
+                <article class="o-layout o-layout--gutter-lg o-layout--align-center o-layout--row-reverse">
+                    <figure class="o-layout__item u-1-of-2-bp3">
                         <picture>
                             <source srcset="img/jpg/img-2.jpg" media="(min-width: 992px)" />
                             <source srcset="img/jpg/img-2-landscape@2x.jpg" media="(min-width: 576px)" />
@@ -128,6 +130,7 @@
                         </picture>
                         <figcaption>The lab at New York Cancer & Blood Specialists</figcaption>
                     </figure>
+                    <div class="o-layout__item u-1-of-2-bp3 ">
                     <header>
                         <h2>
                             For Life <br />
@@ -142,6 +145,7 @@
                     <p>
                         <a href="#!">Learn more</a>
                     </p>
+                </div>
                 </article>
                 <article>
                     <figure>
