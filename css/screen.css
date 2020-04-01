@@ -557,6 +557,32 @@ a:focus {
     background-color: #fff;
 }
 
+/*
+    Component: footer
+    ---
+    Main footer of the website
+*/
+
+.c-footer {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.c-footer__logo {
+    order:0;
+}
+
+.c-footer__nav:nth-child(2) {
+    order: 1;
+}
+.c-footer__nav:nth-child(3){
+    order: 2
+}
+
+
+
 
 
 
@@ -900,6 +926,28 @@ a:focus {
         font-size: 52px;
         line-height: 64px;
     }
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .c-footer__logo {
+        display: flex;
+        justify-content: space-between;
+        order: 1;
+    }
+
+    .c-footer__nav:nth-child(2) {
+        display: block;
+        order: 0;
+        
+    }
+    .c-footer__nav:nth-child(3) {
+        display: block;
+        order: 2;
+        
+    }
 }
 
 
@@ -912,6 +960,37 @@ a:focus {
 
     .c-header__nav {
         display: block;
+    }
+    .c-footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .c-footer__logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        order: 1;
+    }
+
+    .c-footer__logo .c-logo {
+
+    }
+    .c-footer__nav{
+        display: block;
+        flex-direction: row;
+    }
+
+    .c-footer__nav:nth-child(2) {
+        display: block;
+        order: 0;
+        
+    }
+    .c-footer__nav:nth-child(3) {
+        display: block;
+        order: 2;
+        
     }
 }
 
